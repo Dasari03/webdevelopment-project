@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+.bts{
+    background-color: darkcyan;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.bts:focus {
+    outline: none;
+}
+
+.bts:hover {
+    transform:scale(0.98);
+    opacity: 0.9;
+}
